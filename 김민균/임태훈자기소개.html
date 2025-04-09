@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Im Intro</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Gothic+A1&family=Noto+Sans+KR:wght@100..900&display=swap');
+
+        * {
+            font-family: "Noto Sans KR", sans-serif;
+            font-optical-sizing: auto;
+            font-weight: 400;
+            font-style: normal;
+        }
+
+        .myname {
+            font-family: "Gothic A1", sans-serif;
+            font-weight: 800;
+            font-style: normal;
+            color: #3b5ba5;
+        }
+
+        .main_header {
+            position: relative;
+            display: flex;
+            justify-content: flex-end;
+            align-items: center;
+            height: 100px;
+
+            background-color: #e3e8f4
+        }
+
+        .page_logo {
+            position: absolute;
+            left: 50%;
+            transform: translateX(-50%)
+        }
+
+        .header_btn {
+            margin-right: 50px;
+            padding: 6px 16px;
+        }
+
+        .myimg {
+            width: 289px;
+            height: 371px;
+        }
+
+        .myprofile {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 50px;
+            margin: 20px auto 10px auto;
+
+        }
+
+        .mycontent {
+            height: 371px;
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-end;
+        }
+
+        .myinfo {
+            width: 700px;
+            margin: 0px auto 100px auto;
+            padding: 20px;
+            background-color: #e3e8f4;
+            border-radius: 8px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+        }
+
+        .info {
+            font-family: 'Noto Sans KR', sans-serif;
+            font-size: 2rem;
+            font-weight: 400;
+        }
+
+        .index {
+            font-family: 'Noto Sans KR', sans-serif;
+            font-size: 2rem;
+            font-weight: 800;
+        }
+
+        .blog {
+            color: black;
+        }
+        .home_button {
+            text-align: center;
+            background-color: #3b5ba5;
+            color: white;
+            border-radius: 10px;
+            border-color: transparent;
+            width: 100px;
+            height: 40px;
+            position: absolute;
+            right: 60px;
+            margin-top: 5px;
+            align-items: center;   
+        }
+    </style>
+</head>
+
+<body>
+    <header class="main_header">
+        <img class="page_logo" src="image/9bit_page_logo copy.png" alt="9bit 페이지 로고" />
+        <a class="home_button" href="main.html" target="_blank">HOME</a>
+    </header>
+    <div class="myprofile">
+        <div class="myphoto">
+            <img class="myimg" src="image/taehun_photo.jpg" alt="임태훈 프로필 사진">
+        </div>
+        <div class="mycontent">
+            <h1 class="myname">IM TEA HUN</h1>
+            <h3>HTML 담당</h3>
+                    <a class="blog" href=https://sankeum.tistory.com/
+                        target="_blank">https://sankeum.tistory.com/</a>
+        </div>
+    </div>
+    <div class="myinfo">
+        <h2 class="index">MBTI</h2>
+        <p class="info">ENTJ</p>
+        <h2 class="index">출신</h2>
+        <p class="info">SUWON</p>
+        <h2 class="index">사용할 수 있는 언어</h2>
+        <p class="info">HTML, CSS, JS</p>
+        <h2 class="index">취미</h2>
+        <p class="info">게임, 독서</p>
+        <h2 class="index">나의 한마디</h2>
+        <p class="info"> 열심히 성장해서 멋진 프로젝트 해보고 싶어요. <br>잘 부탁드려요.</p>
+    </div>
+
+</body>
+
+</html>
