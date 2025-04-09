@@ -23,7 +23,13 @@
     color: white;
     border: none;
     border-radius: 10px;
+    text-decoration: none;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
+
 
   .content {
     display: flex;
@@ -63,60 +69,53 @@
   }
 
   .cmm {
+    border-radius: 20px;
+    padding: 20px;
     margin-top: 100px;
-    background-color:  #e3e8f4;
+    background-color: #e3e8f4;
     width: 80%;
     height: 380px;
   }
 
   .profile_img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  border-radius: 10px;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 10px;
   }
-  .home_button {
-            text-align: center;
-            background-color: #3b5ba5;
-            color: white;
-            border-radius: 10px;
-            border-color: transparent;
-            width: 100px;
-            height: 40px;
-            position: absolute;
-            right: 60px;
-            margin-top: 5px;
-            align-items: center;   
-        }
+
+  .main {
+    margin-left: 600px;
+  }
 </style>
 
 <div id="headlogo" class="headlogo">
   <img class="logo_img" src="https://github.com/MinGyunKim27/9-Bit/blob/main/9bit_member_logo.png?raw=true">
-  <a class="home_button" href="../index.html" target="_blank">HOME</a>
+  <button class="backhome_button">Home</button>
 </div>
 
 
 <div class="content">
   <div class="main">
     <div class="fimg">
-      <img class="profile_img" src="image/KakaoTalk_20250409_162614541.jpg" >
+      <img class="profile_img" src="img/KakaoTalk_20250409_162614541.jpg">
     </div>
     <div class="int">
       <h1 class="name">이영재</h1>
       <h2 class="birth">2000.11.18</h2>
       <h3>맡은 역할 없음</h3>
-      <a class="blog_link" style="color: black;" href="https://www.notion.so/9-Spring_7-1c70a2146b8a80c7a916e43f31fd9873" target="_blank">개인
+      <a class="blog_link" style="color: black;"
+        href="https://www.notion.so/9-Spring_7-1c70a2146b8a80c7a916e43f31fd9873" target="_blank">개인
         블로그</a>
     </div>
   </div>
 
   <div class="cmm">
     <H1>MBTI : INFP</H1>
-    <H1>출신 : 서울특별시 구로구   -> 평생 경기도 광명에서만 살았어요</H1>
+    <H1>출신 : 서울특별시 구로구 -> 평생 경기도 광명에서만 살았어요</H1>
     <h1>사용할 수 있는 언어 : 웹개발 종합반 3주차까지의 수준</h1>
     <h1>취미/특기 : 운동중에 구기종목들 좋아하고 게임,영화,만화 공포만 빼고 안가리고 좋아해요</h1>
     <h1>나의 한마디: 노베이스에 비전공자라 많이 부족하지만 발목 잡지 않도록 열심히 따라가겠습니다.</h1>
   </div>
 </div>
-
-
