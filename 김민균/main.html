@@ -9,164 +9,189 @@
         integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
     <style>
         /* 전체 기본 폰트와 배경 설정 */
-body {
-    font-family: 'Noto Sans KR', sans-serif;
-    background-color: white;
-    color: #3b5ba5;
-    padding-bottom: 50px;
-}
+        body {
+            font-family: 'Noto Sans KR', sans-serif;
+            background-color: white;
+            color: #3b5ba5;
+            padding-bottom: 50px;
+        }
 
-/* 상단 헤더 */
-.top-header {
-    background-color: #e3e8f4;
-    padding: 20px;
-    text-align: center;
-    color: #3b5ba5;
-}
+        /* 상단 헤더 */
+        .top-header {
+            background-color: #e3e8f4;
+            padding: 20px;
+            text-align: center;
+            color: #3b5ba5;
+        }
 
-.top-title {
-    font-size: 2.5rem;
-    font-weight: bold;
-    margin: 0;
-}
+        .top-title {
+            font-size: 2.5rem;
+            font-weight: bold;
+            margin: 0;
+        }
 
-/* 팀 소개 레이아웃 */
-.right-left-box {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 40px 20px;
-    flex-wrap: wrap;
-    background-color: white;
-    margin: 80px auto;
-    max-width: 2000px;
-    border-radius: 12px;
-    margin-left: 50px;
+        /* 팀 소개 레이아웃 */
+        .right-left-box {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 40px 20px;
+            flex-wrap: wrap;
+            background-color: white;
+            margin: 80px ;
+            max-width: 2000px;
+            border-radius: 12px;
+            margin-left: 50px;
+            margin: 50px 70px 0px 70px;
 
-}
+        }
 
-.main_image {
-    flex: 1;
-    text-align: center;
-    width: 400px;
-    height: auto;
-    margin-left: 50px;
-}
+        .main_image {
+            flex: 1;
+            text-align: center;
+            width: 400px;
+            height: auto;
+            margin-left: 50px;
+        }
 
-.tema_text_contents{
-    font-weight: bold;
-    color: black;
-    margin-bottom: 10px;
-}
+        .tema_text_contents {
+            font-weight: bold;
+            color: black;
+            margin-bottom: 10px;
+        }
 
-.logo-text {
-    font-size: 3rem;
-    font-weight: 800;
-    color: #3b5ba5;
-}
+        .logo-text {
+            font-size: 3rem;
+            font-weight: 900;
+            color: #3b5ba5;
+            margin-left: 100px;
+        }
 
-.tema-text {
-    flex: 2;
-    padding: 20px;
-    margin-left: 600px;
-}
+        .tema-text {
+            flex: 2;
+            padding: 20px;
+            margin-left: 600px;
+        }
 
-.tema-text h3 {
-    font-weight: bold;
-    color: #3b5ba5;
-    margin-bottom: 10px;
-}
+        .tema-text h3 {
+            font-weight: 900;
+            color: #3b5ba5;
+            margin-bottom: 10px;
+        }
 
-.tema-text p {
-    font-size: 1.1rem;
-    line-height: 1.7;
-}
+        .tema-text p {
+            font-size: 1.1rem;
+            line-height: 1.7;
+        }
 
-/* 팀 정보 카드 */
-.team-info {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    gap: 20px;
-    padding: 40px 20px;
-}
+        /* 팀 정보 카드 */
+        .team-info {
+            display: flex;
+            justify-content: center;
+            gap: 40px;
+            padding: 40px 20px;
+            margin: 0px 70px 0px 70px;
+        }
 
-.info-card {
-    background-color: #ffffff;
-    border: 1px solid #dee2e6;
-    padding: 20px;
-    width: 30%;
-    height: 400px;
-    box-shadow: 0 2px 8px rgba(0,0,0,0.05);
-}
+        .info-card-wrapper {
+            display: flex;
+            flex-direction: column;
+            align-items: self-start;
+            width: 100%;
 
-.team-info-title {
-    font-size: 1.3rem;
-    font-weight: bold;
-    color: black;
-    margin-bottom: 10px;
-}
+        }
 
-.team-info-content ol {
-    padding-left: 20px;
-    line-height: 1.6;
-}
+        .team-info-title {
+            font-size: 1.8rem;
+            font-weight: normal;
+            margin-bottom: 15px;
+            text-align: left;
+            color: #222;
 
-/* 팀원 소개 카드 */
-.mate-intro {
-    padding: 60px 20px;
-    background-color: white;
-    text-align: left;
-    margin-left: 70px;
-}
+        }
 
-.mate-intro h1 {
-    font-size: 2rem;
-    font-weight: bold;
-    margin-bottom: 30px;
-}
-
-.mate-intro h2 {
-    font-size: 2rem;
-    font-weight: bold;
-    margin-bottom: 30px;
-}
-
-.card {
-    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
-    border: none;
-    border-radius: 12px;
-    overflow: hidden;
-    display: flex;
-}
-
-.card-img-top {
-    object-fit: cover;
-    height: 250px;
-}
-
-.card-footer {
-    background-color: #f8f9fa;
-    padding: 15px;
-    text-align: left;
-    display: flex;
-    justify-content: space-between;
-}
-
-.member-name {
-    font-weight: 700;
-    font-size: 1.1rem;
-    margin-left: 15px;
-}
-
-.btn-link {
-    color: #3b5ba5;
-    text-decoration: none;
-    font-weight: 500;
-
-}
+        .info-card {
+            width: 100%;
+            height: 300px;
+            border: 1px solid black;
+            padding: 20px;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+            background-color: white;
+            margin-top: 0px;
+        }
 
 
+        .info-card ol {
+            padding-left: 20px;
+            line-height: 1.6;
+            color: black;
+            font-size: 1rem;
+        }
+
+        .team-info-content ol {
+            padding-left: 20px;
+            line-height: 1.6;
+            color: #333;
+            font-size: 1rem;
+        }
+
+        /* 팀원 소개 카드 */
+        .mate-intro {
+            padding: 60px 20px;
+            background-color: white;
+            text-align: left;
+            margin-left: 70px;
+            margin-right: 70px;
+
+        }
+
+        .mate-intro h1 {
+            font-size: 2rem;
+            font-weight: bold;
+            margin-bottom: 30px;
+        }
+
+        .mate-intro h2 {
+            font-size: 2rem;
+            font-weight: bold;
+            margin-bottom: 30px;
+        }
+
+        .card {
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+            border: none;
+            border-radius: 12px;
+            overflow: hidden;
+            display: flex;
+        }
+
+        .card-img-top {
+            object-fit: cover;
+            height: 250px;
+            justify-content: center;
+            object-position: top;
+        }
+
+        .card-footer {
+            background-color: #f8f9fa;
+            padding: 15px;
+            text-align: left;
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .member-name {
+            font-weight: 700;
+            font-size: 1.1rem;
+            margin-left: 15px;
+        }
+
+        .btn-link {
+            color: #3b5ba5;
+            text-decoration: none;
+            font-weight: 500;
+
+        }
     </style>
     <script>
 
@@ -177,48 +202,48 @@ body {
 <body>
     <!--머리말-->
     <header class="top-header">
-        <img class = "main_image_pagev" src="9bit_page_logo.png" alt="...">
+        <img class="main_image_pagev" src="9bit_page_logo.png" alt="...">
     </header>
 
 
 
     <!--팀 소개 간단 -->
-    <section class="team-intro"></section>
-    <!--좌 우 박스 -->
-    <div class="right-left-box">
-        <!--좌측 로고 -->
-        <div class="logo">
-            <img class = "main_image" src="9bit.png" alt="...">
+    <section class="team-intro">
+        <!--좌 우 박스 -->
+        <div class="right-left-box">
+            <!--좌측 로고 -->
+            <div class="logo">
+                <img class="main_image" src="9bit.png" alt="...">
+            </div>
+            <!--우측 설명 -->
+            <div class="tema-text">
+                <h3>ABOUT TEAM</h3>
+                <p class="tema_text_contents">
+                    9BIT조는 9조의 9와 정보의 최소 단위인 8BIT를 결합해 만든 이름으로,<br>
+                    작지만 강력한 단위처럼 팀원 각각의 역량을 모아<br>
+                    더 큰 결과를 만들어내자는 의미를 담고 있습니다.
+                </p>
+            </div>
         </div>
-        <!--우측 설명 -->
-        <div class="tema-text">
-            <h3>ABOUT TEAM</h3>
-            <p class ="tema_text_contents">
-                9BIT조는 9조의 9와 정보의 최소 단위인 8BIT를 결합해 만든 이름으로,<br>
-                작지만 강력한 단위처럼 팀원 각각의 역량을 모아<br>
-                더 큰 결과를 만들어내자는 의미를 담고 있습니다.
-            </p>
-        </div>
-    </div>
     </section>
 
     <!--팀 정보 3 카드-->
+
     <section class="team-info">
-        <!--좌 중 우 3 카드-->
-        <div class="info-card">
-            <h4 class="team-info-title">TMI-우리 팀 특징</h4>
-            <div class="team-info-content">
+        <div class="info-card-wrapper">
+            <h4 class="team-info-title">TMI + 우리 팀의 특징</h4>
+            <div class="info-card">
                 <ol>
-                    <li>123123132123</li>
+                    <li>E가 5명 I가 1명이다</li>
                     <li>41231231414</li>
                     <li>12312312412</li>
                 </ol>
             </div>
         </div>
 
-        <div class="info-card">
+        <div class="info-card-wrapper">
             <h4 class="team-info-title">우리 팀의 목표</h4>
-            <div class="team-info-content">
+            <div class="info-card">
                 <ol>
                     <li>모르고 막막하더라도 집단지성으로 해결해나가기</li>
                     <li>세운 계획을 잘 지키기</li>
@@ -227,9 +252,9 @@ body {
             </div>
         </div>
 
-        <div class="info-card">
+        <div class="info-card-wrapper">
             <h4 class="team-info-title">우리 팀의 규칙</h4>
-            <div class="team-info-content">
+            <div class="info-card">
                 <ol>
                     <li>팀원과 소통 서로 응원</li>
                     <li>프로젝트에 적극적으로 임하기</li>
@@ -237,9 +262,12 @@ body {
                 </ol>
             </div>
         </div>
-       
-        
     </section>
+
+
+
+
+
 
     <!--팀원 소개 카드-->
     <Section class="mate-intro">
@@ -248,66 +276,60 @@ body {
             <!--김민균님-->
             <div class="col">
                 <div class="card h-100">
-                    <img src="https://www.ancient-origins.net/sites/default/files/field/image/Agesilaus-II-cover.jpg"
-                        class="card-img-top" alt="...">
+                    <img src="image/김민균 사진.jpg" class="card-img-top" alt="...">
                     <div class="card-footer">
                         <p class="member-name">김민균</p>
-                        <button type="button" class="btn btn-link">상세페이지▶</button>
+                        <a href="김민균자기소개.html" target="_blank">상세페이지▶</a>
                     </div>
                 </div>
             </div>
             <!--김광수님-->
             <div class="col">
                 <div class="card h-100">
-                    <img src="https://www.ancient-origins.net/sites/default/files/field/image/Agesilaus-II-cover.jpg"
-                        class="card-img-top" alt="...">
+                    <img src="..." class="card-img-top" alt="...">
                     <div class="card-footer">
                         <p class="member-name">김광수</p>
-                        <button type="button" class="btn btn-link">상세페이지▶</button>
+                        <a href="..." target="_blank">상세페이지▶</a>
                     </div>
                 </div>
             </div>
             <!--오세훈님-->
             <div class="col">
                 <div class="card h-100">
-                    <img src="https://www.ancient-origins.net/sites/default/files/field/image/Agesilaus-II-cover.jpg"
-                        class="card-img-top" alt="...">
+                    <img src="image/self_image.jpg" class="card-img-top" alt="...">
                     <div class="card-footer">
                         <p class="member-name">오세훈</p>
-                        <button type="button" class="btn btn-link">상세페이지▶</button>
+                        <a href="오세훈자기소개.html" target="_blank">상세페이지▶</a>
                     </div>
                 </div>
             </div>
             <!--이영재님-->
             <div class="col">
                 <div class="card h-100">
-                    <img src="https://www.ancient-origins.net/sites/default/files/field/image/Agesilaus-II-cover.jpg"
-                        class="card-img-top" alt="...">
+                    <img src="..." class="card-img-top" alt="...">
                     <div class="card-footer">
                         <p class="member-name">이영재</p>
-                        <button type="button" class="btn btn-link">상세페이지▶</button>
+                        <a href="..." target="_blank">상세페이지▶</a>
                     </div>
                 </div>
             </div>
             <!--임태훈님-->
             <div class="col">
                 <div class="card h-100">
-                    <img src="https://www.ancient-origins.net/sites/default/files/field/image/Agesilaus-II-cover.jpg"
-                        class="card-img-top" alt="...">
+                    <img src="..." class="card-img-top" alt="...">
                     <div class="card-footer">
                         <p class="member-name">임태훈</p>
-                        <button type="button" class="btn btn-link">상세페이지▶</button>
+                        <a href="..." target="_blank">상세페이지▶</a>
                     </div>
                 </div>
             </div>
             <!--최희정님-->
             <div class="col">
                 <div class="card h-100">
-                    <img src="https://www.ancient-origins.net/sites/default/files/field/image/Agesilaus-II-cover.jpg"
-                        class="card-img-top" alt="...">
+                    <img src="..." class="card-img-top" alt="...">
                     <div class="card-footer">
                         <p class="member-name">최희정</p>
-                        <button type="button" class="btn btn-link">상세페이지▶</button>
+                        <a href="..." target="_blank">상세페이지▶</a>
                     </div>
                 </div>
             </div>
