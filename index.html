@@ -112,7 +112,7 @@
 
         .info-card {
             width: 100%;
-            height: 300px;
+            height: 350px;
             border: 1px solid black;
             padding: 20px;
             box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
@@ -163,11 +163,12 @@
             border-radius: 12px;
             overflow: hidden;
             display: flex;
+            justify-content: space-between;
         }
 
         .card-img-top {
             object-fit: cover;
-            height: 250px;
+            height: 290px;
             justify-content: center;
             object-position: top;
         }
@@ -178,11 +179,13 @@
             text-align: left;
             display: flex;
             justify-content: space-between;
+            align-items: center;
         }
 
         .member-name {
             font-weight: 700;
             font-size: 1.1rem;
+            margin: 0px auto;
             margin-left: 15px;
         }
 
@@ -190,7 +193,6 @@
             color: #3b5ba5;
             text-decoration: none;
             font-weight: 500;
-
         }
 
 
@@ -236,6 +238,12 @@
             color: #3b5ba5;
             border: transparent;
         }
+
+        .mate-intro .col .card {
+            height: 350px;
+        }
+
+        .row-cols-md-3>* {height:350px;}
     </style>
     <script>
 
@@ -279,8 +287,8 @@
             <div class="info-card">
                 <ol>
                     <li>E가 5명 I가 1명이다</li>
-                    <li>41231231414</li>
-                    <li>12312312412</li>
+                    <li>평균 나이 20대 후반</li>
+                    <li>조용하지만 강한 팀</li>
                 </ol>
             </div>
         </div>
@@ -334,8 +342,7 @@
                     <img src="..." class="card-img-top" alt="...">
                     <div class="card-footer">
                         <p class="member-name">김광수</p>
-                        <button class="detailed_page_btn" onclick="location.href=''"
-                            target="_blank">상세페이지▶</a>
+                        <button class="detailed_page_btn" onclick="location.href=''" target="_blank">상세페이지▶</a>
                     </div>
                 </div>
             </div>
