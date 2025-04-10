@@ -13,6 +13,7 @@
             font-family: "Nanum Gothic", sans-serif;
 
         }
+
         body {
             margin: 0px auto;
         }
@@ -39,11 +40,13 @@
         }
 
         .container {
+            max-width: 1280px;
             display: flex;
             padding: 20px;
             align-items: center;
+            margin: 0 auto;
             margin-top: 30px;
-            position: relative;
+
 
 
 
@@ -51,21 +54,19 @@
 
         .myphoto {
             
-
-            display: flex;
-            margin-left: 16%;
-
-            width: 16%;
-            height: auto;
-
+            
+            width: 300px;
+            height: 300px;
+            
+            overflow: hidden;
+            border-radius: 20px;
         }
 
-        .myphoto>img {
-            
-            top: 0;
-            left: 0;
-            width: 90%;
-            height: 90%;
+        
+
+        .myphoto .img,
+        .myphoto .img img {
+            width: 100%;
         }
 
         .info {
@@ -104,14 +105,16 @@
         <div>
             <img src="https://github.com/MinGyunKim27/9-Bit/blob/7f66f1aa7c94bc7161ca027cd5d120900d8a7829/9bit_member_logo.png?raw=true"
                 alt="9BIT_member">
-            <button onclick="location.href='../index.html'" target="_blank" type="button" class="btn btn-primary">HOME</button>
+            <button onclick="location.href='../index.html'" target="_blank" type="button"
+                class="btn btn-primary">HOME</button>
         </div>
 
     </header>
     <div class="container">
         <div class="myphoto">
-            <img src="https://github.com/MinGyunKim27/9-Bit/blob/main/selfie/%EA%B9%80%EA%B4%91%EC%88%98.JPG?raw=true"
-                alt="myphoto">
+            <div class="img"><img
+                    src="https://github.com/MinGyunKim27/9-Bit/blob/main/selfie/%EA%B9%80%EA%B4%91%EC%88%98.JPG?raw=true"
+                    alt="myphoto"></div>
 
         </div>
         <div class="info">
