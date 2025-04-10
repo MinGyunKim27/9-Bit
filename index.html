@@ -39,11 +39,16 @@
             flex-wrap: wrap;
             background-color: white;
             margin: 80px;
-            max-width: 2000px;
+            max-width: 1280x;
             border-radius: 12px;
             margin-left: 50px;
             margin: 50px 70px 0px 70px;
 
+        }
+
+        .team-intro {
+            max-width: 100%;
+            margin: 0 auto;
         }
 
         .main_image {
@@ -54,7 +59,7 @@
             margin-left: 50px;
         }
 
-        .tema_text_contents {
+        .team_text_contents {
             font-weight: bold;
             color: black;
             margin-bottom: 10px;
@@ -67,19 +72,20 @@
             margin-left: 100px;
         }
 
-        .tema-text {
+        .team-text {
             flex: 2;
             padding: 20px;
-            margin-left: 600px;
+            margin-left: 25%;
+            font-weight: 900;
         }
 
-        .tema-text h3 {
+        .team-text h3 {
             font-weight: 900;
             color: #3b5ba5;
             margin-bottom: 10px;
         }
 
-        .tema-text p {
+        .team-text p {
             font-size: 1.1rem;
             line-height: 1.7;
         }
@@ -103,7 +109,7 @@
 
         .team-info-title {
             font-size: 1.8rem;
-            font-weight: normal;
+            font-weight: 700;
             margin-bottom: 15px;
             text-align: left;
             color: #222;
@@ -243,7 +249,9 @@
             height: 350px;
         }
 
-        .row-cols-md-3>* {height:350px;}
+        .row-cols-md-3>* {
+            height: 350px;
+        }
     </style>
     <script>
 
@@ -268,9 +276,9 @@
                 <img class="main_image" src="9bit.png" alt="...">
             </div>
             <!--우측 설명 -->
-            <div class="tema-text">
+            <div class="team-text">
                 <h3>ABOUT TEAM</h3>
-                <p class="tema_text_contents">
+                <p class="team_text_contents">
                     9BIT조는 9조의 9와 정보의 최소 단위인 8BIT를 결합해 만든 이름으로,<br>
                     작지만 강력한 단위처럼 팀원 각각의 역량을 모아<br>
                     더 큰 결과를 만들어내자는 의미를 담고 있습니다.
@@ -342,8 +350,8 @@
                     <img src="selfie/김광수.JPG" class="card-img-top" alt="...">
                     <div class="card-footer">
                         <p class="member-name">김광수</p>
-                        <button class="detailed_page_btn" onclick="location.href='selfie/personal_김광수.html'" 
-                        target="_blank">상세페이지▶</a>
+                        <button class="detailed_page_btn" onclick="location.href='selfie/personal_김광수.html'"
+                            target="_blank">상세페이지▶</a>
                     </div>
                 </div>
             </div>
@@ -396,6 +404,7 @@
 
     </Section>
 
+    <!--방명록-->
     <div class="container my-5">
         <div class="guestbook-title">방명록</div>
 
